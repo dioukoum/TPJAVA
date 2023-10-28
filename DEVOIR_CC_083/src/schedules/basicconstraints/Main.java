@@ -2,7 +2,7 @@ package schedules.basicconstraints;
 import schedules.activities.Activity;
 
 public class Main{
-    public static void main(String[] main){
+    public static void main(String[] args){
         //Soient a1, a2, a3, a4 des activités de type Activity
         Activity a1 = new Activity("Aller à l'université",1);
         Activity a2 = new Activity("Faire du sport", 10);

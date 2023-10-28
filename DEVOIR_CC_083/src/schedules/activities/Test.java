@@ -2,7 +2,7 @@ package schedules.activities;
 import schedulestests.activities.ActivityTests;
 
 public class Test{
-        public static void main(String[] argc){
+        public static void main(String[] args){
                 boolean ok = true;
                 ActivityTests activityTester = new ActivityTests();
                 ok = ok && activityTester.testGetDescription();

@@ -5,7 +5,7 @@ import schedules.activities.Activity;
 import schedules.basicconstraints.PrecedenceConstraint;
 
 public class Main{
-    public static void main(String[] argc){
+    public static void main(String[] args){
         /*LES DIFFERENTESS ACTIVITES*/
         Activity a1 = new Activity("Se lever",1);
         Activity a2 = new Activity("Aller au travail", 15);
