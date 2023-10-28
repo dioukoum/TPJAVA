@@ -2,7 +2,7 @@ package schedules.basictopologicalsort;
 import schedulestests.basictopologicalsort.TopologicalSorterTests;
 
 public class Test{
-    public static void main(String[] argc){
+    public static void main(String[] args){
         boolean ok = true;
         TopologicalSorterTests tester = new TopologicalSorterTests();
         ok = ok && tester.testBruteForceSort();
